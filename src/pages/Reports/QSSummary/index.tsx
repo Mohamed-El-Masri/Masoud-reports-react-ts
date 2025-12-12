@@ -45,11 +45,11 @@ const QSSummaryReport = () => {
 
   const getTypeBadge = (type: string) => {
     const typeMap: Record<string, { label: string; variant: 'info' | 'success' | 'warning' | 'error' | 'default' }> = {
-      'Excavation': { label: 'حفر', variant: 'info' },
-      'Concrete': { label: 'خرسانة', variant: 'success' },
-      'Earthworks': { label: 'أعمال ترابية', variant: 'warning' },
-      'Roads': { label: 'طرق', variant: 'default' },
-      'Steel': { label: 'حديد', variant: 'error' },
+      'حفر في تربة عادية': { label: 'حفر في تربة عادية', variant: 'info' },
+      'حفر في تربة صخرية': { label: 'حفر في تربة صخرية', variant: 'error' },
+      'ردم من ناتج الحفر': { label: 'ردم من ناتج الحفر', variant: 'warning' },
+      'ردم بتربة إحلال نظيفة': { label: 'ردم بتربة إحلال نظيفة', variant: 'success' },
+      'تمهيد طرق': { label: 'تمهيد طرق', variant: 'default' },
     };
     const typeInfo = typeMap[type] || { label: type, variant: 'default' as const };
     return <Badge variant={typeInfo.variant}>{typeInfo.label}</Badge>;

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { DollarSign, Calendar, Filter, Download, Printer, CheckCircle } from 'lucide-react';
+import { DollarSign, Calendar, Filter, Download, Printer, CheckCircle, Users, Package, Truck } from 'lucide-react';
 import Card from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
 import Badge from '@/components/ui/Badge';

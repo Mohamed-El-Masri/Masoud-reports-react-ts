@@ -33,9 +33,9 @@ const QSSummaryReport = () => {
   const getStatusBadge = (status: string) => {
     switch (status) {
       case 'Approved':
-        return <Badge variant="success" icon={<CheckCircle className="w-3 h-3" />}>معتمد</Badge>;
+        return <Badge variant="success">معتمد</Badge>;
       case 'Pending':
-        return <Badge variant="warning" icon={<Clock className="w-3 h-3" />}>قيد المراجعة</Badge>;
+        return <Badge variant="warning">قيد المراجعة</Badge>;
       case 'Rejected':
         return <Badge variant="error">مرفوض</Badge>;
       default:
@@ -44,8 +44,8 @@ const QSSummaryReport = () => {
   };
 
   const getTypeBadge = (type: string) => {
-    const typeMap: Record<string, { label: string; variant: 'primary' | 'success' | 'warning' | 'error' | 'default' }> = {
-      'Excavation': { label: 'حفر', variant: 'primary' },
+    const typeMap: Record<string, { label: string; variant: 'info' | 'success' | 'warning' | 'error' | 'default' }> = {
+      'Excavation': { label: 'حفر', variant: 'info' },
       'Concrete': { label: 'خرسانة', variant: 'success' },
       'Earthworks': { label: 'أعمال ترابية', variant: 'warning' },
       'Roads': { label: 'طرق', variant: 'default' },

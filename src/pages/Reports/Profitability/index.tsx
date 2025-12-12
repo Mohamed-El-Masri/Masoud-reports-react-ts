@@ -4,7 +4,7 @@ import Card from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
 import Badge from '@/components/ui/Badge';
 import { mockProfitabilityData } from '@/data/mockReportsData';
-import { formatCurrency, formatNumber } from '@/utils/helpers';
+import { formatCurrency } from '@/utils/helpers';
 
 const ProfitabilityReport = () => {
   const [selectedStatus, setSelectedStatus] = useState('all');
@@ -42,9 +42,9 @@ const ProfitabilityReport = () => {
   const getStatusBadge = (status: string) => {
     switch (status) {
       case 'Completed':
-        return <Badge variant="success" icon={<CheckCircle className="w-3 h-3" />}>مكتمل</Badge>;
+        return <Badge variant="success">مكتمل</Badge>;
       case 'In Progress':
-        return <Badge variant="primary" icon={<Activity className="w-3 h-3" />}>قيد التنفيذ</Badge>;
+        return <Badge variant="info">قيد التنفيذ</Badge>;
       case 'On Hold':
         return <Badge variant="warning">متوقف</Badge>;
       default:
@@ -54,9 +54,9 @@ const ProfitabilityReport = () => {
 
   const getProfitBadge = (netProfit: number) => {
     if (netProfit > 0) {
-      return <Badge variant="success" icon={<TrendingUp className="w-3 h-3" />}>ربح</Badge>;
+      return <Badge variant="success">ربح</Badge>;
     } else if (netProfit < 0) {
-      return <Badge variant="error" icon={<TrendingDown className="w-3 h-3" />}>خسارة</Badge>;
+      return <Badge variant="error">خسارة</Badge>;
     } else {
       return <Badge variant="default">متعادل</Badge>;
     }

@@ -56,15 +56,15 @@ const DirectCostsReport = () => {
       'Subcontractor': { label: 'مقاولي باطن', variant: 'default' },
     };
     const catInfo = categoryMap[category] || { label: category, variant: 'default' as const };
-    return <Badge variant={catInfo.variant} icon={getCategoryIcon(category)}>{catInfo.label}</Badge>;
+    return <Badge variant={catInfo.variant}>{catInfo.label}</Badge>;
   };
 
   const getPaymentStatusBadge = (status: string) => {
     switch (status) {
       case 'Paid':
-        return <Badge variant="success" icon={<CheckCircle className="w-3 h-3" />}>مدفوع</Badge>;
+        return <Badge variant="success">مدفوع</Badge>;
       case 'Partial':
-        return <Badge variant="warning" icon={<Clock className="w-3 h-3" />}>مدفوع جزئياً</Badge>;
+        return <Badge variant="warning">مدفوع جزئياً</Badge>;
       case 'Unpaid':
         return <Badge variant="error">غير مدفوع</Badge>;
       default:

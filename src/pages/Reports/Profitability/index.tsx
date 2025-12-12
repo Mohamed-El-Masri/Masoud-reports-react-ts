@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { TrendingUp, TrendingDown, DollarSign, Filter, Download, Printer, Target, Percent, CheckCircle, Activity } from 'lucide-react';
+import { TrendingUp, DollarSign, Filter, Download, Printer, Target, Percent } from 'lucide-react';
 import Card from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
 import Badge from '@/components/ui/Badge';

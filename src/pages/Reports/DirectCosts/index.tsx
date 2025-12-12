@@ -31,8 +31,8 @@ const DirectCostsReport = () => {
   const categories = [...new Set(mockDirectCostsData.map(cost => cost.category))];
 
   const getCategoryBadge = (category: string) => {
-    const categoryMap: Record<string, { label: string; variant: 'primary' | 'success' | 'warning' | 'error' | 'default' }> = {
-      'Labor': { label: 'عمالة', variant: 'primary' },
+    const categoryMap: Record<string, { label: string; variant: 'info' | 'success' | 'warning' | 'error' | 'default' }> = {
+      'Labor': { label: 'عمالة', variant: 'info' },
       'Material': { label: 'مواد', variant: 'success' },
       'Equipment': { label: 'معدات', variant: 'warning' },
       'Fuel': { label: 'وقود', variant: 'error' },

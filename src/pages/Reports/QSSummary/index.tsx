@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FileText, Calendar, Filter, Download, Printer, CheckCircle, Clock, Link2 } from 'lucide-react';
+import { FileText, Calendar, Filter, Download, Printer, CheckCircle, Link2 } from 'lucide-react';
 import Card from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
 import Badge from '@/components/ui/Badge';

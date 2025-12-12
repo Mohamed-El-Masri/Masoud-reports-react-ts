@@ -1,0 +1,51 @@
+{
+  "common": {
+    "appName": "Reports App - Masoud Company",
+    "companyName": "Masoud Company Soma Bay",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search...",
+    "filter": "Filter",
+    "export": "Export",
+    "print": "Print",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "refresh": "Refresh",
+    "noData": "No data available",
+    "total": "Total",
+    "from": "From",
+    "to": "To",
+    "date": "Date",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "reports": "Reports",
+    "analytics": "Analytics",
+    "timeline": "Timeline",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "dashboard": {
+    "title": "Executive Dashboard",
+    "welcome": "Welcome",
+    "kpis": {
+      "title": "Key Performance Indicators",
+      "executedValue": "Executed Value",
+      "outstandingQS": "Outstanding QS Value",
+      "openItems": "Open Items",
+      "fuelConsumption": "Monthly Fuel Consumption",
+      "equipmentUtilization": "Equipment Utilization",
+      "netProfit": "Net Profit"
+    }
+  }
+}

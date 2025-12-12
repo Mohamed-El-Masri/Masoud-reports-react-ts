@@ -1,0 +1,130 @@
+{
+  "common": {
+    "appName": "تطبيق التقارير - شركة المسعود",
+    "companyName": "شركة المسعود بسوما باي",
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ",
+    "success": "تم بنجاح",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "view": "عرض",
+    "search": "بحث...",
+    "filter": "تصفية",
+    "export": "تصدير",
+    "print": "طباعة",
+    "close": "إغلاق",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "refresh": "تحديث",
+    "noData": "لا توجد بيانات",
+    "total": "الإجمالي",
+    "from": "من",
+    "to": "إلى",
+    "date": "التاريخ",
+    "status": "الحالة",
+    "actions": "الإجراءات"
+  },
+  "nav": {
+    "dashboard": "لوحة القيادة",
+    "reports": "التقارير",
+    "analytics": "التحليلات",
+    "timeline": "الخط الزمني",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج"
+  },
+  "dashboard": {
+    "title": "لوحة القيادة التنفيذية",
+    "welcome": "مرحباً بك",
+    "kpis": {
+      "title": "مؤشرات الأداء الرئيسية",
+      "executedValue": "القيمة المنفذة",
+      "outstandingQS": "قيمة الحصر المعلقة",
+      "openItems": "البنود المفتوحة",
+      "fuelConsumption": "استهلاك الوقود الشهري",
+      "equipmentUtilization": "استغلال المعدات",
+      "netProfit": "صافي الربح"
+    },
+    "charts": {
+      "projectProgress": "تقدم المشاريع",
+      "itemsStatus": "حالة البنود",
+      "fuelTrend": "اتجاه الوقود",
+      "costVsRevenue": "التكاليف مقابل الإيرادات"
+    },
+    "alerts": {
+      "title": "التنبيهات",
+      "closedWithoutQS": "بند مغلق بدون مقايسة",
+      "pendingCertificates": "مستخلص معلق",
+      "unallocatedFuel": "وقود غير مخصص",
+      "budgetExceeded": "تجاوز الميزانية"
+    }
+  },
+  "reports": {
+    "title": "التقارير",
+    "projectProgress": {
+      "title": "تقرير تقدم المشاريع",
+      "description": "عرض تفصيلي لتقدم كل مشروع"
+    },
+    "equipmentUtilization": {
+      "title": "تقرير استخدام المعدات",
+      "description": "تحليل استخدام المعدات والتكاليف"
+    },
+    "fuelConsumption": {
+      "title": "تقرير استهلاك الوقود",
+      "description": "تفاصيل استهلاك الوقود حسب المعدة والمشروع"
+    },
+    "certificates": {
+      "title": "تقرير المستخلصات",
+      "description": "سجل المستخلصات والمدفوعات"
+    },
+    "qsSummary": {
+      "title": "تقرير الحصر",
+      "description": "ملخص الحصر حسب النوع والحالة"
+    },
+    "directCosts": {
+      "title": "تقرير التكاليف المباشرة",
+      "description": "تفاصيل التكاليف المباشرة"
+    },
+    "profitability": {
+      "title": "تقرير الربحية",
+      "description": "تحليل الربحية لكل مشروع"
+    }
+  },
+  "filters": {
+    "title": "الفلاتر",
+    "dateRange": "النطاق الزمني",
+    "project": "المشروع",
+    "location": "الموقع",
+    "status": "الحالة",
+    "type": "النوع",
+    "apply": "تطبيق",
+    "reset": "إعادة تعيين",
+    "save": "حفظ الفلتر"
+  },
+  "export": {
+    "title": "تصدير التقرير",
+    "pdf": "PDF",
+    "excel": "Excel",
+    "csv": "CSV",
+    "email": "إرسال بالبريد",
+    "schedule": "جدولة التقرير"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "rememberMe": "تذكرني",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "loginButton": "دخول"
+  },
+  "errors": {
+    "generic": "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
+    "network": "خطأ في الاتصال. تحقق من الإنترنت.",
+    "unauthorized": "غير مصرح. يرجى تسجيل الدخول.",
+    "forbidden": "ليس لديك صلاحية للوصول.",
+    "notFound": "الصفحة غير موجودة.",
+    "serverError": "خطأ في الخادم. يرجى المحاولة لاحقاً."
+  }
+}

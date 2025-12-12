@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { DollarSign, Calendar, Filter, Download, Printer, CheckCircle, Clock, Users, Package, Truck, Fuel, HardHat } from 'lucide-react';
+import { DollarSign, Calendar, Filter, Download, Printer, CheckCircle } from 'lucide-react';
 import Card from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
 import Badge from '@/components/ui/Badge';
@@ -29,23 +29,6 @@ const DirectCostsReport = () => {
   // Get unique values
   const projects = [...new Set(mockDirectCostsData.map(cost => cost.project))];
   const categories = [...new Set(mockDirectCostsData.map(cost => cost.category))];
-
-  const getCategoryIcon = (category: string) => {
-    switch (category) {
-      case 'Labor':
-        return <Users className="w-4 h-4" />;
-      case 'Material':
-        return <Package className="w-4 h-4" />;
-      case 'Equipment':
-        return <Truck className="w-4 h-4" />;
-      case 'Fuel':
-        return <Fuel className="w-4 h-4" />;
-      case 'Subcontractor':
-        return <HardHat className="w-4 h-4" />;
-      default:
-        return <DollarSign className="w-4 h-4" />;
-    }
-  };
 
   const getCategoryBadge = (category: string) => {
     const categoryMap: Record<string, { label: string; variant: 'primary' | 'success' | 'warning' | 'error' | 'default' }> = {
